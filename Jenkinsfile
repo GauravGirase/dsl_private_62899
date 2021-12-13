@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage ('Git Clone') {
             steps {
-                git url: "git@github.com:GauravGirase/private_repo_62899.git", branch: "testing",
-                credentialsId: "Gaurav62899"
+                git url: "git@github.com:GauravGirase/private_repo_62899.git", branch: "main",
+                credentialsId: "ssh_62899"
             }
             
         }
